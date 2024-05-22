@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  flex-direction: column;
+  min-height: 100dvh;
+  display: flex;
+}
+
+body header {
+  background-color: #000;
+  padding: 2rem;
+}
+
+body header h1 {
+  color: #fff;
+  text-align: center;
+}
+
+body main {
+  flex-grow: 1;
+}
+
+body footer {
+  background-color: #000;
+  padding: 4rem;
+}
+
+body footer .copyright {
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+}
+/*# sourceMappingURL=index.034b6250.css.map */
