@@ -19,7 +19,7 @@ new RGraph.SVG.Bar({
         ]
     ],
     options: {
-        marginLeft: 55,
+        marginLeft: 75,
         marginTop: 60,
         marginInner: 10,
         colors: [
