@@ -1,4 +1,7 @@
 @use 'partials/variables' as var;
+@use 'header';
+@use 'graphiques';
+@use 'footer';
 
 *{
     box-sizing: border-box;
@@ -13,37 +16,11 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: 'helvetica';
     min-height: 100dvh;
-
-    header{
-        background-color: black;
-        padding: 2rem;
-
-        h1{
-            color: white;
-            text-align: center;
-        }
-    }
 
     main{
         flex-grow: 1;
-
-        .graphiques__container{
-            list-style: none;
-        }
-    }
-
-    footer{
-        background-color: black;
-        padding: 4rem;
-
-        .copyright{
-            align-items: center;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            justify-content: center;
-        }
+        padding: 4rem 0;
     }
 }

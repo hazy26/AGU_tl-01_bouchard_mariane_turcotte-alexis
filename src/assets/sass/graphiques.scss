@@ -1,0 +1,29 @@
+@use 'partials/variables' as var;
+
+.graphiques__container{
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: auto;
+    list-style: none;
+    padding: 2rem;
+
+    h2{
+        font-size: 1.8rem;
+        font-weight: 600;
+        letter-spacing: 1;
+    }
+
+    @media screen and (min-width: 768px) {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    @media screen and (min-width: 1024px) {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .graphique{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
