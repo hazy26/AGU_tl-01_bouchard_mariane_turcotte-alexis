@@ -37,7 +37,6 @@ new RGraph.SVG.Bar({
             "2040",
             "2050"
         ],
-        title: "Projected revenue",
         key: [
             "Frankie",
             "Bruno"

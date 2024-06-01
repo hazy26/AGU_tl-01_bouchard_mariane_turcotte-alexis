@@ -12,8 +12,5 @@ new RGraph.SVG.Pie({
         key: ["Team 1", "Team 2", "Team 3", "Team 4"],
         textSize: 10,
         marginTop: 60,
-        title: 'Un Pie Chart!',
-        titleItalic: true,
-        titleY: 22
     }
 }).draw();

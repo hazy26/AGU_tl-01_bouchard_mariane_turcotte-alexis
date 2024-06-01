@@ -12,7 +12,6 @@ new RGraph.SVG.Bar({
         },
         yaxisScaleUnitsPre: '$',
         xaxisLabels: ['2020','2030','2040','2050'],
-        title: 'Projected revenue',
         key: ['Frankie','Bruno'],
         xaxisColor: '#aaa',
         xaxisTickmarks: 0,
