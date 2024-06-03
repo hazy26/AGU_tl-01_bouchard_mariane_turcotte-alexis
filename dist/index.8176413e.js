@@ -3,7 +3,7 @@ function createGraphique2() {
         id: "graphique_2",
         min: 0,
         max: 100,
-        value: 10.3,
+        value: 4.3,
         color: "#8e5ea2",
         options: {
             labelsCenterDecimals: 1,
