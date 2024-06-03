@@ -17,6 +17,7 @@ function createGrahique6(){
             keyOffsety: -20,
             xaxisColor: '#aaa',
             xaxisTickmarks: 0,
+            yaxisScaleUnitsPost: 'M',
             yaxisColor: '#aaa',
             yaxisTickmarks: 0
         }
